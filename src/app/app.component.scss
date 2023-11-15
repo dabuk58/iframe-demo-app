@@ -1,0 +1,23 @@
+.container{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+mat-card{
+    display: flex;
+    align-items: center;
+    animation: fadein 0.3s;
+}
+
+mat-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-text{
+    color: #673ab7;
+    margin-top: 10px;
+}
